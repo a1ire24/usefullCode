@@ -1,0 +1,7 @@
+# save a list of all folders and all subfolders of the directory:
+
+  "dir /A:D /B /S > FolderList.txt"
+  
+# save a list of all files in all subfolders of the directory:
+
+  "dir /B /S > FilesList.txt"
