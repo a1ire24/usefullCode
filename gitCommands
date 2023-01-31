@@ -1,3 +1,17 @@
+# create a new repository on the command line
+echo "# Dara" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/a1ire24/Dara.git
+git push -u origin main
+
+# push an existing repository from the command line
+git remote add origin https://github.com/a1ire24/Dara.git
+git branch -M main
+git push -u origin main
+
 # for change last commit message pushed
 git commit --amend 
 git push --force-with-lease origin main
