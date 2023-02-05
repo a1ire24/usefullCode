@@ -8,3 +8,6 @@
 
 # save a list of all files in all subfolders of the directory:
 %{foreach( $a in (Get-ChildItem -Recurse) ){$a.FullName}} | Out-File FilesList.txt
+
+# check URL redirects
+curl -IL https://example.com
